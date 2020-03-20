@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:link
+{
+text-decoration:none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e5771; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body {
+}
+
+
+#topo {
+	background-color: #234199;
+	padding: 20px;
+}
+
+#topo h1, i, a{
+	color: #fff;
+}
+
+#topo-admin {
+	background-color: #05206f;
+	padding: 20px;
+}
+
+#topo-admin h1, i, a{
+	color: #fff;
+}
+
+#menu-admin {
+	margin-top: 15px;
+	display: inline;
+	float: right;
+	margin: -5px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+#topo-bem-vindo {
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	margin: -5px;
+	text-transform: capitalize;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+#menu {
+	margin-top: 15px;
+	display: inline;
+	float: right;
+	margin: -25px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.menu-ativo {
+	
+display: inline-block;
+	
+background: #05206f;
+	
+padding: 10px;
+	
+margin: inherit;
+	
+margin-right: 0;
+	
+margin-left: 0;
+}
+
+#footer {
+	background: #234199;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+#banner {
+	background-image: url(../imagens/navio-banner.jpg);
+	padding: 200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#home {
+	padding: 20px
+
+}
+
+.bem-vindo {
+    text-align: center;
+}
+
+.botao {
+  background-color: #234199;
+  padding: 10px 12px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 4px 2px;
+}
+
+.sobre {padding: 20px;background-color: #4b77f5;color: #fff;}
+.sobre-pessoal {
+	padding: 10px 100px;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+.produtos {
+	padding: 20px;
+}
+
+
+.produto-item {
+	padding: 20px;
+	display: inline-grid;
+}
+
+#contato, #add-produto, #pagina-de-venda, #historico-de-vendas {
+	
+padding: 20px;
+}
