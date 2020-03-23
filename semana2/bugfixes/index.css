@@ -118,6 +118,15 @@ td button {
     height: 100px;
 }
 
+td button:hover {
+    background-color: #6f6123;
+    color: black;
+}
+
+td button:active {
+    color: white;
+}
+
 
 
 #back-button {
