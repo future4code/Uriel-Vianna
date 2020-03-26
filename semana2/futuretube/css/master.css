@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: blue;
+  height: 70px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: -webkit-center;
+}
+
+.video-1 {
+
+}
+.video-2 {
+
+}
+.video-3 {
+
+}
+.video-4 {
+
+}
+.video-5 {
+
+}
+.video-6 {
+
+}
+.video-7 {
+
+}
+.video-8 {
+
+}
+
+.video-geral {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.video-pagina {
+  width: 80%;
+  height: 500px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+}
+
+.topo {
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 25px;
+}
+
+.busca {
+  display: inline;
+  float: right;
+  align-items: center;
+}
